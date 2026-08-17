@@ -1,0 +1,44 @@
+# macOS Finder metadata
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# macOS custom folder icon. The file on disk is named "Icon" followed by a
+# carriage return (49 63 6f 6e 0d), which is why a bare "Icon" will not match
+# it. Both patterns below are kept: "Icon?" catches the CR, "Icon[\r]" is the
+# form used by GitHub's own macOS template.
+Icon?
+Icon[\r]
+
+# macOS volume / index cruft
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+
+# Local agent and preview tooling — machine-specific, not part of the site
+.claude/
+
+# Editor and IDE state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and scratch output
+*.log
+npm-debug.log*
+
+# Windows, in case the site is ever edited from one
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# NOTE: assets/branch/ is deliberately NOT ignored. The 17 WebP layers and
+# layers.json are the hero artwork — the site does not render without them.

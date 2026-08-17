@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catherine Wang — Strategy &amp; Editorial Design</title>
+<meta name="description" content="Catherine Wang builds marketing systems grounded in strategy and executed with finesse. Brand identity as communication shaped by psychology, nuance and subliminals.">
+<meta property="og:title" content="Catherine Wang — Strategy &amp; Editorial Design">
+<meta property="og:description" content="I build marketing systems grounded in strategy and executed with finesse.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+
+<!-- ============================================================ NAV -->
+<header class="nav">
+  <div class="wrap nav__in">
+    <a class="wordmark" href="index.html" aria-label="Catherine Wang, home">
+      <span>Catherine Wang</span><i aria-hidden="true"></i>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html" aria-current="page">Index</a>
+      <a href="work.html">Work</a>
+      <a href="writing.html">Writing</a>
+      <a href="media.html">Media</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="drawer">Menu</button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <button class="drawer__close">Close</button>
+  <a href="index.html" aria-current="page">Index</a>
+  <a href="work.html">Work</a>
+  <a href="writing.html">Writing</a>
+  <a href="media.html">Media</a>
+  <a href="about.html">About</a>
+  <p class="drawer__meta">hello@catherinewang.com</p>
+</div>
+
+<main id="main">
+
+  <!-- ========================================================= HERO -->
+  <!-- The fig branch is the hero: a suspended botanical specimen, cut into
+       seventeen layers (assets/branch/layers.json) so it can breathe, respond
+       to the cursor and hold depth. Typography stays clear of the busy
+       middle of the composition; see js/branch.js. -->
+  <section class="hero" id="hero">
+
+    <div class="branch" data-branch role="img"
+         aria-label="Watercolour illustration of a fig branch — lobed leaves, three ripening figs and one cut in half.">
+      <div class="branch__stage">
+      <img class="branch__layer" src="assets/branch/leaf-b.webp" alt="" loading="eager" decoding="async"
+           width="347" height="331" data-kind="leaf"
+           data-depth="0.2" data-mass="0.8" data-rel="0.717"
+           style="--x:0.5208%;--y:14.8438%;--w:22.5911%;--ox:111.53%;--oy:44.71%">
+      <img class="branch__layer" src="assets/branch/leaf-a.webp" alt="" loading="eager" decoding="async"
+           width="314" height="239" data-kind="leaf"
+           data-depth="0.28" data-mass="0.55" data-rel="0.558"
+           style="--x:11.7839%;--y:2.0508%;--w:20.4427%;--ox:69.75%;--oy:115.48%">
+      <img class="branch__layer" src="assets/branch/leaf-c.webp" alt="" loading="eager" decoding="async"
+           width="139" height="146" data-kind="leaf"
+           data-depth="0.62" data-mass="0.3" data-rel="0.249"
+           style="--x:30.0781%;--y:18.3594%;--w:9.0495%;--ox:106.47%;--oy:89.04%">
+      <img class="branch__layer" src="assets/branch/leaf-d.webp" alt="" loading="eager" decoding="async"
+           width="363" height="365" data-kind="leaf"
+           data-depth="0.34" data-mass="0.85" data-rel="0.808"
+           style="--x:50.3255%;--y:16.0156%;--w:23.6328%;--ox:50.14%;--oy:101.64%">
+      <img class="branch__layer" src="assets/branch/leaf-g.webp" alt="" loading="eager" decoding="async"
+           width="138" height="253" data-kind="leaf"
+           data-depth="0.22" data-mass="0.45" data-rel="0.295"
+           style="--x:90.3646%;--y:51.1719%;--w:8.9844%;--ox:-2.17%;--oy:69.57%">
+      <img class="branch__layer" src="assets/branch/leaf-f.webp" alt="" loading="eager" decoding="async"
+           width="190" height="215" data-kind="leaf"
+           data-depth="0.3" data-mass="0.45" data-rel="0.383"
+           style="--x:77.0182%;--y:43.0664%;--w:12.3698%;--ox:6.32%;--oy:102.79%">
+      <img class="branch__layer" src="assets/branch/branch.webp" alt="" loading="eager" decoding="async"
+           width="1072" height="528" data-kind="branch"
+           data-depth="0.4" data-mass="1.0" data-rel="0.723"
+           style="--x:24.9349%;--y:23.9258%;--w:69.7917%;--ox:48.23%;--oy:52.08%">
+      <img class="branch__layer" src="assets/branch/leaf-h.webp" alt="" loading="eager" decoding="async"
+           width="267" height="245" data-kind="leaf"
+           data-depth="0.44" data-mass="0.5" data-rel="0.398"
+           style="--x:78.125%;--y:70.8984%;--w:17.3828%;--ox:-7.49%;--oy:-3.27%">
+      <img class="branch__layer" src="assets/branch/leaf-i.webp" alt="" loading="eager" decoding="async"
+           width="129" height="159" data-kind="leaf"
+           data-depth="0.52" data-mass="0.35" data-rel="0.256"
+           style="--x:88.6719%;--y:81.1523%;--w:8.3984%;--ox:29.46%;--oy:0.63%">
+      <img class="branch__layer" src="assets/branch/leaf-j.webp" alt="" loading="eager" decoding="async"
+           width="101" height="232" data-kind="leaf"
+           data-depth="0.7" data-mass="0.3" data-rel="0.305"
+           style="--x:73.8932%;--y:69.2383%;--w:6.5755%;--ox:29.7%;--oy:20.69%">
+      <img class="branch__layer" src="assets/branch/leaf-e.webp" alt="" loading="eager" decoding="async"
+           width="444" height="422" data-kind="leaf"
+           data-depth="0.86" data-mass="1.0" data-rel="1.0"
+           style="--x:19.9219%;--y:50.1953%;--w:28.9062%;--ox:88.74%;--oy:7.35%">
+      <img class="branch__layer" src="assets/branch/fig-green-a.webp" alt="" loading="eager" decoding="async"
+           width="145" height="83" data-kind="fig"
+           data-depth="0.66" data-mass="1.6" data-rel="0.252"
+           style="--x:18.6198%;--y:25.7812%;--w:9.4401%;--ox:88.97%;--oy:61.45%">
+      <img class="branch__layer" src="assets/branch/fig-green-b.webp" alt="" loading="eager" decoding="async"
+           width="190" height="117" data-kind="fig"
+           data-depth="0.72" data-mass="1.6" data-rel="0.252"
+           style="--x:41.276%;--y:53.0273%;--w:12.3698%;--ox:34.74%;--oy:-26.5%">
+      <img class="branch__layer" src="assets/branch/fig-green-c.webp" alt="" loading="eager" decoding="async"
+           width="102" height="61" data-kind="fig"
+           data-depth="0.6" data-mass="1.6" data-rel="0.18"
+           style="--x:69.7917%;--y:52.6367%;--w:6.6406%;--ox:17.65%;--oy:-18.03%">
+      <img class="branch__layer" src="assets/branch/fig-purple-a.webp" alt="" loading="eager" decoding="async"
+           width="183" height="200" data-kind="fig"
+           data-depth="0.92" data-mass="2.2" data-rel="0.458"
+           style="--x:19.7266%;--y:38.6719%;--w:11.9141%;--ox:44.81%;--oy:3%">
+      <img class="branch__layer" src="assets/branch/fig-cut.webp" alt="" loading="eager" decoding="async"
+           width="176" height="196" data-kind="fig"
+           data-depth="0.88" data-mass="2.2" data-rel="0.444"
+           style="--x:50.3906%;--y:58.1055%;--w:11.4583%;--ox:80.11%;--oy:13.78%">
+      <img class="branch__layer" src="assets/branch/fig-purple-b.webp" alt="" loading="eager" decoding="async"
+           width="152" height="190" data-kind="fig"
+           data-depth="0.9" data-mass="2.2" data-rel="0.399"
+           style="--x:66.7318%;--y:68.0664%;--w:9.8958%;--ox:62.5%;--oy:15.26%">
+      </div>
+    </div>
+
+    <div class="wrap hero__type">
+      <p class="label hero__eyebrow">Catherine Wang — Brand, Strategy &amp; Editorial</p>
+
+      <h1 class="mega" data-split>
+        <span data-line>I work at the</span>
+        <span data-line>intersection of <em>strategy</em></span>
+        <span data-line>and editorial design.</span>
+      </h1>
+
+      <div class="hero__meta">
+        <p class="lead" data-reveal style="--d:640ms;max-width:34ch;margin:0">
+          I build marketing systems grounded in strategy and executed with
+          finesse — obsessing over the customer and the larger company
+          philosophy.
+        </p>
+        <div data-reveal style="--d:760ms">
+          <a class="alink link" href="#timeline"><span>The path so far</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <p class="hero__caption" data-reveal style="--d:880ms">Boston &amp; New York</p>
+    </div>
+  </section>
+
+  <!-- ==================================================== STATEMENT -->
+  <!-- Her own line from Notion — the most opinionated sentence she has,
+       so it gets the largest type on the page after the hero. -->
+  <section class="section statement tone-sand">
+    <div class="wrap grid">
+      <div class="c1-5"><p class="label" data-reveal>The premise</p></div>
+      <div class="c6-13">
+        <blockquote data-reveal>
+          I see brand identity as a form of communication shaped by
+          psychology, <em>nuance</em>, and subliminals.
+        </blockquote>
+        <cite data-reveal>Which is why I don't start with the logo</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= INTRO -->
+  <section class="section section--tight">
+    <div class="wrap grid">
+      <div class="c1-5"><p class="label" data-reveal>In short</p></div>
+      <div class="c6-13">
+        <div class="prose prose--serif" data-reveal>
+          <p>
+            Whether through GTM campaigns, SEO, lifecycle funnels, or product
+            storytelling, I focus on translating a company's core philosophy
+            into a brand that feels personal and beautiful. My work marries
+            behavioral insight with design — turning instincts and behavioral
+            analytics into systems that scale with finesse.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== TIMELINE -->
+  <!-- Journey and portfolio as one scroll, after getty.edu/tracingart.
+       ⚠ Entries marked [CONFIRM] need a date or detail only you know. -->
+  <section class="section" id="timeline">
+    <div class="wrap">
+      <div class="grid" style="margin-bottom:clamp(2rem,5vh,3.5rem)">
+        <div class="c1-6">
+          <p class="label" data-reveal>The path so far</p>
+          <h2 class="h1" data-reveal style="margin-top:1.1rem">
+            A working<br><span class="it ac">timeline</span>.
+          </h2>
+        </div>
+        <div class="c8-13" style="align-self:end">
+          <p class="lead" data-reveal>
+            Not a résumé. The projects and obsessions in the order they
+            actually happened — because the through-line only makes sense
+            in sequence.
+          </p>
+        </div>
+      </div>
+
+      <div class="tl">
+        <div class="tl__rail" aria-hidden="true"><div class="tl__fill"></div></div>
+        <ol class="tl__list">
+
+          <li class="tl__era"><h2>Foundations</h2></li>
+
+          <li class="tl__item">
+            <p class="tl__year">2024</p>
+            <span class="tl__node" aria-hidden="true"></span>
+            <div class="tl__body" data-reveal>
+              <div class="tl__kicker">
+                <span class="tl__role">Where it started</span>
+                <span class="tl__where">Northeastern University</span>
+              </div>
+              <h3 class="h3">Marketing, taught sideways</h3>
+              <p>
+                [CONFIRM — year and detail] Studying marketing while actually
+                learning it from photography, film and print. The instinct for
+                pacing and visual hierarchy that shows up in everything below
+                was built here, not in a lecture.
+              </p>
+              <div class="tags"><span class="tag">Origin</span><span class="tag">Editorial</span></div>
+            </div>
+          </li>
+
+          <li class="tl__era"><h2>Building the function</h2></li>
+
+          <li class="tl__item">
+            <p class="tl__year">Jan 2025</p>
+            <span class="tl__node" aria-hidden="true"></span>
+            <div class="tl__body" data-reveal>
+              <div class="tl__kicker">
+                <span class="tl__role">Marketing Lead · Sole marketer</span>
+                <span class="tl__where">Dripos — YC-backed vertical SaaS</span>
+              </div>
+              <h3 class="h3">Joined at Series B to build marketing from zero</h3>
+              <p>
+                I joined Dripos, a YC-backed vertical SaaS startup raising its
+                Series B, to build and lead the marketing function. As the sole
+                marketer I partnered directly with the co-founders on strategic
+                initiatives, and worked with Sales on content and media that
+                sharpened demos and drove inbound leads.
+              </p>
+              <div class="tags">
+                <span class="tag">Team of one</span>
+                <span class="tag">GTM</span>
+                <span class="tag">Series B</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl__item">
+            <p class="tl__year">2025</p>
+            <span class="tl__node" aria-hidden="true"></span>
+            <div class="tl__body" data-reveal>
+              <div class="tl__kicker">
+                <span class="tl__role">Product storytelling · Film</span>
+                <span class="tl__where">Dripos</span>
+              </div>
+              <h3 class="h3">Supply Chain demo feature video</h3>
+              <p>
+                Production, design and music for short-form product videos used
+                in customer demos and onboarding — bridging technical function
+                and aesthetic appeal so complex tools felt intuitive and
+                aspirational. Editing choices, pacing and visual hierarchy all
+                reinforced the same brand identity: sleek, minimal, confident.
+              </p>
+              <div class="tl__pair">
+                <div data-reveal="clip"><div class="ph ph--45 ph--shadow" data-ph="4:5 — video still"></div></div>
+                <div data-reveal="clip"><div class="ph ph--45 ph--sand" data-ph="4:5 — UI detail"></div></div>
+              </div>
+              <div class="tags">
+                <span class="tag">Video production</span>
+                <span class="tag">Design</span>
+                <span class="tag">Music</span>
+                <span class="tag">Brand identity</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="tl__item">
+            <p class="tl__year">2025</p>
+            <span class="tl__node" aria-hidden="true"></span>
+            <div class="tl__body" data-reveal>
+              <div class="tl__kicker">
+                <span class="tl__role">Strategy &amp; analytics</span>
+                <span class="tl__where">Dripos</span>
+              </div>
+              <h3 class="h3">Replacing guesswork with a measurement system</h3>
+              <p>
+                We had no real method of understanding what kind of leads we
+                were attracting, why, or how. I implemented Google Analytics,
+                Meta Pixel, Semrush and a UTM convention — then built a
+                retroactive review cadence so the strategy actually iterated
+                against the data instead of past it.
+              </p>
+              <div class="tl__out">
+                <div><b>11.6k</b><span>IG impressions ↑43.6%</span></div>
+                <div><b>444</b><span>IG engagements ↑37.5%</span></div>
+                <div><b>229</b><span>FB engagements ↑27.2%</span></div>
+              </div>
+              <div class="tags">
+                <span class="tag">Google Analytics</span>
+                <span class="tag">Meta Pixel</span>
+                <span class="tag">Semrush</span>
+                <span class="tag">UTMs</span>
+              </div>
+              <p style="margin-top:1.2rem">
+                <a class="alink link" href="work.html"><span>Read the briefs</span><span aria-hidden="true">→</span></a>
+              </p>
+            </div>
+          </li>
+
+          <li class="tl__era"><h2>Now</h2></li>
+
+          <li class="tl__item">
+            <p class="tl__year">2026</p>
+            <span class="tl__node" aria-hidden="true"></span>
+            <div class="tl__body" data-reveal>
+              <div class="tl__kicker">
+                <span class="tl__role">Currently</span>
+                <span class="tl__where">Open to select projects</span>
+              </div>
+              <h3 class="h3">What I'm working on</h3>
+              <p>
+                [CONFIRM — replace with the present tense: what you're building,
+                reading and arguing about right now. Keeping this entry dated is
+                what makes the site read as maintained rather than archived.]
+              </p>
+              <div class="tags"><span class="tag">Available</span><span class="tag">Writing</span></div>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+
+      <div style="margin-top:clamp(2rem,5vh,3.5rem)" data-reveal>
+        <a class="btn" href="work.html">Full project index <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================== PHILOSOPHY -->
+  <!-- Below the work: findable in one scroll, never the first thing you
+       meet. Three pillars are hers; the expansions are drafts to edit. -->
+  <section class="section invert philo" id="philosophy">
+    <div class="wrap philo__grid">
+      <div class="philo__sticky">
+        <p class="label" data-reveal>Philosophy</p>
+        <h2 class="h2" data-reveal style="margin-top:1.1rem">
+          Three<br><span class="it ac">pillars</span>.
+        </h2>
+        <p class="lead" data-reveal style="margin-top:1.4rem;max-width:32ch">
+          Everything I do rests on these. They're the reason briefs get
+          argued with before they get executed.
+        </p>
+        <p data-reveal style="margin-top:1.6rem">
+          <a class="alink link" href="about.html"><span>The longer version</span><span aria-hidden="true">→</span></a>
+        </p>
+      </div>
+
+      <div class="philo__list">
+        <div class="tenet" data-reveal>
+          <span class="num">01</span>
+          <div>
+            <h3 class="h3">Become customer obsessed</h3>
+            <p>
+              Not customer-informed, not customer-adjacent. The customer's
+              actual behaviour — what they clicked, what they abandoned, what
+              they said when nobody was selling to them — outranks internal
+              consensus every time.
+            </p>
+          </div>
+        </div>
+        <div class="tenet" data-reveal>
+          <span class="num">02</span>
+          <div>
+            <h3 class="h3">Fail fast and learn</h3>
+            <p>
+              Shipping is how you find out. I'd rather run the campaign, read
+              the data and be wrong in three weeks than be theoretically
+              correct in a deck for six months.
+            </p>
+          </div>
+        </div>
+        <div class="tenet" data-reveal>
+          <span class="num">03</span>
+          <div>
+            <h3 class="h3">Practice radical candor</h3>
+            <p>
+              Care personally, challenge directly. The most expensive thing in
+              a marketing team is the objection nobody raised — and warmth is
+              what makes the hard conversation survivable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== WRITING -->
+  <section class="section">
+    <div class="wrap">
+      <div class="grid" style="margin-bottom:clamp(1.8rem,4.5vh,3rem)">
+        <div class="c1-6"><h2 class="h2" data-reveal>Writing</h2></div>
+        <div class="c8-13" style="align-self:end">
+          <p data-reveal style="color:var(--ink-3);font-size:var(--fs-small)">
+            Briefs, essays and notes on brand, behaviour and attention.
+          </p>
+        </div>
+      </div>
+
+      <div class="posts">
+        <a class="post" href="work.html" data-reveal>
+          <span class="num">2025</span>
+          <h3>Google Analytics Brief</h3>
+          <span class="post__kind">Brief · 8 min</span>
+        </a>
+        <a class="post" href="work.html" data-reveal>
+          <span class="num">2025</span>
+          <h3>Marketing Strategy Proposal</h3>
+          <span class="post__kind">Brief</span>
+        </a>
+        <a class="post" href="work.html" data-reveal>
+          <span class="num">2025</span>
+          <h3>April Social and Web Insights</h3>
+          <span class="post__kind">Report</span>
+        </a>
+      </div>
+
+      <div style="margin-top:clamp(1.8rem,4.5vh,3rem)" data-reveal>
+        <a class="alink link" href="writing.html"><span>All writing</span><span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== CONTACT -->
+  <section class="section contact tone-sand" id="contact">
+    <div class="wrap grid">
+      <div class="c1-5"><p class="label" data-reveal>Work with me</p></div>
+      <div class="c6-13">
+        <h2 class="h1" data-reveal style="margin-bottom:1.8rem">
+          Let's make something<br><span class="it ac">deliberate</span>.
+        </h2>
+        <p class="lead" data-reveal style="max-width:42ch;margin-bottom:2.2rem">
+          Open to brand, positioning and editorial work — and to a
+          conversation that starts with what you've already ruled out.
+        </p>
+        <a class="contact__mail link" href="mailto:hello@catherinewang.com" data-reveal>hello@catherinewang.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ========================================================= FOOTER -->
+<footer class="invert">
+  <div class="wrap foot">
+    <p>© <span data-year>2026</span> Catherine Wang</p>
+    <div class="foot__social">
+      <a href="#" class="link">Instagram</a>
+      <a href="#" class="link">LinkedIn</a>
+      <a href="#" class="link">Substack</a>
+    </div>
+    <p>Strategy &amp; editorial design</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/branch.js"></script>
+</body>
+</html>
